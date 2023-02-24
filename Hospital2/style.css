@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size:62.5%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar{
+  position: sticky;
+}
+.navbar img{
+  width: 70px;
+  height: 70px;
+  margin-left: 30px;
+}
+.item-1{
+  justify-content: space-around;
+  margin-right: 20px;
+  border-radius: 30px;
+  background:rgb(108, 108, 160) ;
+  color: aliceblue;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+/* }------------------------------------------------- */
+.contact{
+  height: 100vh;
+}
+.display img{
+  width: 300px;
+  height: 300px;
+}
+.contact-container{
+  display: flex;
+  height: 600px;
+  /* background: rgb(256, 256, 256); */
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+}
+.contact1{
+  padding-top: 40px;
+  text-align: center;
+  width: 50%;
+}
+.contact1 h1{
+  font-size: 3rem;
+}
+.contact1 p{
+  font-size: 1.6rem;
+  padding-top: 20px;
+}
+.contact2{
+  width: 50%; 
+}
+.contact1 img{
+  width: 300px;
+  height: 300px;
+  margin-top: 30px;
+}
+.sub-container{
+  position: relative;
+  max-width: 430px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(189, 51, 131, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  padding: 34px;
+  margin-left: 45%;
+  margin-top: 30%;
+}
+
+.sub-container h2{
+  padding-bottom: 40px;
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+.sub-container ul li{
+
+  font-size: 1.2rem;
+  
+}
+/* ---------------showcase area styling-------------- */
+.showcase-area{
+    height: 100vh;
+    background: url(./img1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.details{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 1.6rem;
+ }
+
+ #box{
+  border: 2px solid black;
+  padding: 40px;
+  border-radius: 20px;
+ }
+ .field{
+  color: black;
+  border-radius: 20px;
+  margin: 10px;
+ }
+ /* ------------showcase area1 stylin1styling--------------- */
+ 
+ .container{
+    display: flex;
+ }
+ .container1{
+    width: 50%;
+ }
+ .container2{
+    width: 50%;
+    font-size: 3rem;
+     padding-top: 80px;
+    padding-left: 20px;
+ }
+ .showcase-area1 h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+ }
+ .showcase-area1 p{
+    display: flex;
+ }
+ .showcase-area1{
+    height: 60vh;
+ }
+ /* ---------------showcase-area2 styling------------------- */
+ .show{
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(110, 110, 196);
+ }
+ .showcase-area2{
+  padding-top: 30px;
+  padding-bottom: 30px;
+ 
+ }
+ .showcase-area2 img{
+   text-align: center;
+   height: 100px;
+   width: 100px;
+   justify-content: space-between;
+ }
+ .showcase-area2 .card img{
+   text-align: center;
+ }
+
+ .showcase-area2 .col{
+   text-align: center;
+ }
+ .card-body h5{
+  color: rgb(110, 110, 196);
+  font-size: 2rem;
+  font-weight: 600px;
+ }
+
+ .package{
+  justify-content: space-around;
+margin-left: 300px;
+ }
+ .card-body p{
+  font-size: 1.6rem;
+  font-weight: 400px;
+ }
+ 
+
+/* ---------------showcase-area3 styling------------------- */
+ .showcase-area3 img{
+   height: 100px;
+   width: 100px;
+ }
+ .show-1{
+  color: rgb(110, 110, 196);
+  text-align: center;
+  padding-bottom: 30px;
+ }
+
+ .card img{
+  text-align:  center;
+ }
+ /* -------------showcase-area4-------------- */
+
+ .showcase-area4 img{
+   height: 350px;
+   width: 350px;
+   padding-right: 130px;
+   padding-top: 40px;
+   margin-right: 40px;
+ }
+
+ .showcase-area4 h1{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 3rem;
+ }
+
+ .showcase-area4 ul{
+  font-size: 1.6rem;
+  padding-left: 210px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+ }
+ .showcase-area4 p{
+   font-size: 1.4rem;
+   padding-left: 180px;
+ }
+
+ /* ---------------------showcase-area5 styling------------------ */
+
+ h2{
+   text-align: center;
+   font-size: 3rem;
+   padding-top: 20px;
+   color: rgb(108, 108, 160);
+ }
+ .area1{
+   text-align: center;
+   border: 1px solid gray;
+   border-radius: 5px;
+  padding-top: 10px;
+  margin-top: 20px;
+  font-size: 1.4rem;
+  background-color: antiquewhite;
+ }
+ .areaii{
+  background: rgb(99, 220, 220);
+ }
+ .areaiii{
+  background: rgb(184, 115, 115);
+ }
+
+ /* --------------showcase-area6---------------- */
+ .showcase-area6{
+ margin-left: 20px;
+ margin-right: 20px;
+ }
+
+ .card-body{
+  background: gainsboro;
+ }
+ .part-1{
+ text-align: center;
+ margin-top: 30px;
+ 
+ }
+ .part-1 p{
+   font-size: 1.6rem;
+   padding-top: 10px;
+   padding-bottom: 10px;
+ }
+ 
+ .part-1 h5{
+   font-size: 2rem;
+ }
+ .part-2{
+   margin: 30px;
+ }
+ .part-2 p{
+   text-align: center;
+   font-size: 1.6rem;
+   padding-top: 10px;
+   padding-bottom: 10px;
+
+ }
+ .part-2 h5{
+   font-size: 2rem;
+   text-align: center;
+ }
+/* -------------footer-styling--------------------- */
+
+ .footer{
+  background: white;
+  height: 55vh;
+}
+
+.footer-container{
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+ 
+}
+.foot{
+   align-self: center;
+}
+
+.foot h5{
+  font-size: 2rem;
+  font-weight: 1.2rem;
+  padding: 10px;
+  color: rgb(108, 108, 160);
+}
+
+.foot li{
+  font-size: 1.6rem;
+  padding: 10px;
+}
+.foot p{
+  font-size: 1.6rem;
+  padding: 20px;
+}
+
+.logos{
+  padding-left: 30px;
+}
+.icons{
+  float: rights;
+  
+}
+
+.icon li{
+  display: inline;
+ padding-left: 10px;
+}
+.logos .paragraph{
+  font-size: 2rem;
+  
+}
